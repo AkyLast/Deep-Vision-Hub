@@ -1,0 +1,6 @@
+{
+    "videos_path": ["Sources/video1.mp4", "Sources/video2.mp4", "Sources/video3.mp4"],
+    "model_path": "Sources/best.pt",
+    "video_size": [1280, 720],
+    "proporcao_min": 0.05
+}

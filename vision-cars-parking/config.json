@@ -1,0 +1,17 @@
+{
+    "video_path": "Sources/parking.mp4",
+    "resize": {"colored": [1100, 720], "grayscaled": [550, 360]},
+    "rois": [
+        {"x": 5, "y": 65, "w": 115, "h": 250, "threshold": 5000},
+        {"x": 130, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 280, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 430, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 580, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 730, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 880, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 1030, "y": 65, "w": 140, "h": 250, "threshold": 5000},
+        {"x": 1180, "y": 65, "w": 95, "h": 250, "threshold": 5000}
+    ],
+    "dilate": {"kernel": [2,2], "iterations": 2},
+    "draw_countter": "False"
+}
