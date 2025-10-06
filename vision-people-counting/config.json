@@ -4,7 +4,7 @@
     "dillate": {"kernel": [4, 4], "iterations": 2},
     "threshold_roi": {"gateway": 4250, "escape": 3950},
     "area_count": {
-        "status": "False", "start": [575, 155], "end": [660, 240], "color": [255, 255, 255], "startText": [590, 225], "textColor": [255, 0, 0]
+        "status": "True", "start": [575, 155], "end": [660, 240], "color": [255, 255, 255], "startText": [590, 225], "textColor": [255, 0, 0]
     }
     
 }

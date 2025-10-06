@@ -1,0 +1,116 @@
+{
+    "status_server": 0,
+    "videos_config": {
+        "video_colored": {"video_path": ["Sources/condPark.mp4", "Sources/shoppingPark.mp4", 0], "size": [1280, 720], "statusDraw_Counter": 1, "statusDraw_idVaga": 1},
+        "video_grayscaled": {"status": 0, "size": [550, 360]}
+    },
+    "rois": {
+        "condPark": [
+            {"id_roi": 1, "x": 5, "y": 65, "w": 115, "h": 250, "threshold": 5500},
+            {"id_roi": 3, "x": 130, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 5, "x": 280, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 7, "x": 430, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 9, "x": 580, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 11, "x": 730, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 13, "x": 880, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 15, "x": 1030, "y": 65, "w": 140, "h": 250, "threshold": 5500},
+            {"id_roi": 17, "x": 1180, "y": 65, "w": 95, "h": 250, "threshold": 5500}
+        ],
+        "shoppingPark": [
+            {"id_roi": 1, "x": 30, "y": 85, "w": 120, "h": 58, "threshold": 900},
+            {"id_roi": 3, "x": 30, "y": 143, "w": 120, "h": 50, "threshold": 900},
+            {"id_roi": 5, "x": 30, "y": 193, "w": 120, "h": 46, "threshold": 900},
+            {"id_roi": 7, "x": 30, "y": 239, "w": 120, "h": 50, "threshold": 900},
+            {"id_roi": 9, "x": 30, "y": 289, "w": 120, "h": 48, "threshold": 900},
+            {"id_roi": 11, "x": 30, "y": 337, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 13, "x": 30, "y": 384, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 15, "x": 30, "y": 431, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 17, "x": 30, "y": 478, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 19, "x": 30, "y": 525, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 21, "x": 30, "y": 572, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 23, "x": 30, "y": 619, "w": 120, "h": 55, "threshold": 900},
+
+            {"id_roi": 2, "x": 155, "y": 85, "w": 120, "h": 58, "threshold": 900},
+            {"id_roi": 4, "x": 155, "y": 143, "w": 120, "h": 50, "threshold": 900},
+            {"id_roi": 6, "x": 155, "y": 193, "w": 120, "h": 46, "threshold": 900},
+            {"id_roi": 8, "x": 155, "y": 239, "w": 120, "h": 50, "threshold": 900},
+            {"id_roi": 10, "x": 155, "y": 289, "w": 120, "h": 48, "threshold": 900},
+            {"id_roi": 12, "x": 155, "y": 337, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 14, "x": 155, "y": 384, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 16, "x": 155, "y": 431, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 18, "x": 155, "y": 478, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 20, "x": 155, "y": 525, "w": 120, "h": 47, "threshold": 900},
+            {"id_roi": 22, "x": 160, "y": 574, "w": 120, "h": 43, "threshold": 900},
+            {"id_roi": 24, "x": 160, "y": 619, "w": 120, "h": 55, "threshold": 900},
+
+            {"id_roi": 25, "x": 390, "y": 85, "w": 110, "h": 56, "threshold": 900},
+            {"id_roi": 27, "x": 390, "y": 141, "w": 110, "h": 48, "threshold": 900},
+            {"id_roi": 29, "x": 390, "y": 189, "w": 110, "h": 46, "threshold": 900},
+            {"id_roi": 31, "x": 390, "y": 235, "w": 110, "h": 50, "threshold": 900},
+            {"id_roi": 33, "x": 390, "y": 285, "w": 110, "h": 46, "threshold": 900},
+            {"id_roi": 35, "x": 390, "y": 331, "w": 110, "h": 49, "threshold": 900},
+            {"id_roi": 37, "x": 390, "y": 380, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 39, "x": 390, "y": 427, "w": 110, "h": 45, "threshold": 900},
+            {"id_roi": 41, "x": 390, "y": 523, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 43, "x": 390, "y": 570, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 45, "x": 390, "y": 617, "w": 110, "h": 50, "threshold": 900},
+
+            {"id_roi": 26, "x": 505, "y": 85, "w": 110, "h": 56, "threshold": 900},
+            {"id_roi": 28, "x": 505, "y": 141, "w": 110, "h": 48, "threshold": 900},
+            {"id_roi": 30, "x": 505, "y": 189, "w": 110, "h": 46, "threshold": 900},
+            {"id_roi": 32, "x": 505, "y": 235, "w": 110, "h": 50, "threshold": 900},
+            {"id_roi": 34, "x": 505, "y": 285, "w": 110, "h": 46, "threshold": 900},
+            {"id_roi": 36, "x": 505, "y": 331, "w": 110, "h": 49, "threshold": 900},
+            {"id_roi": 38, "x": 505, "y": 380, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 40, "x": 505, "y": 427, "w": 110, "h": 45, "threshold": 900},
+            {"id_roi": 42, "x": 505, "y": 523, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 44, "x": 505, "y": 570, "w": 110, "h": 47, "threshold": 900},
+            {"id_roi": 46, "x": 505, "y": 617, "w": 110, "h": 50, "threshold": 900},
+
+            {"id_roi": 47, "x": 740, "y": 85, "w": 125, "h": 54, "threshold": 1150},
+            {"id_roi": 49, "x": 740, "y": 139, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 51, "x": 740, "y": 187, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 53, "x": 740, "y": 235, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 55, "x": 740, "y": 283, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 57, "x": 740, "y": 330, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 59, "x": 740, "y": 377, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 61, "x": 740, "y": 424, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 63, "x": 740, "y": 471, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 65, "x": 740, "y": 518, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 67, "x": 740, "y": 565, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 69, "x": 740, "y": 612, "w": 125, "h": 51, "threshold": 1150},
+
+            {"id_roi": 48, "x": 885, "y": 135, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 52, "x": 885, "y": 187, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 54, "x": 885, "y": 235, "w": 125, "h": 48, "threshold": 1150},
+            {"id_roi": 56, "x": 885, "y": 283, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 58, "x": 885, "y": 330, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 60, "x": 885, "y": 377, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 62, "x": 885, "y": 424, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 64, "x": 885, "y": 471, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 66, "x": 885, "y": 518, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 68, "x": 885, "y": 565, "w": 125, "h": 47, "threshold": 1150},
+            {"id_roi": 70, "x": 885, "y": 612, "w": 125, "h": 51, "threshold": 1150}
+
+        ]
+    },
+    "dilate": {
+        "shoppingPark": {"kernel": [1,1], "iterations": 4},
+        "condPark": {"kernel": [2,2], "iterations": 2}
+    },
+    "counting_area_config": {
+        "local": {
+            "top-left": {"start": [20, 20], "end":[135, 60], "textStart": [25, 50], "textStart-M": [45, 50]},
+            "top-midle": {"start": [582, 20], "end": [698, 60], "textStart": [588, 50], "textStart-M": [608, 50]},
+            "top-right": {"start": [1145, 20], "end": [1260, 60], "textStart": [1150, 50], "textStart-M": [1173, 50]},
+            "midle-left": {"start": [20, 340], "end": [135, 380], "textStart": [25, 370], "textStart-M": [45, 370]},
+            "midle-midle": {"start": [582, 340], "end": [698, 380], "textStart": [588, 370], "textStart-M": [608, 370]},
+            "midle-right": {"start": [1145, 340], "end": [1260, 380], "textStart": [1150, 370], "textStart-M": [1173, 370]},
+            "bottom-left": {"start": [20, 660], "end": [135, 700], "textStart": [25, 690], "textStart-M": [45, 690]},
+            "bottom-midle": {"start": [582, 660], "end": [698, 700], "textStart": [588, 690], "textStart-M": [608, 690]},
+            "bottom-right": {"start": [1145, 660], "end": [1260, 700], "textStart": [1150, 690], "textStart-M": [1173, 690]}
+        },
+        "color": [250, 0, 0], "colorText": [255, 255, 255], "fontSize": 3
+    },
+    "logs_path": "Sources/dados.xlsx"
+}

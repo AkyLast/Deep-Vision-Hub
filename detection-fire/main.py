@@ -7,10 +7,10 @@ from ultralytics import YOLO
 with open("config.json", "r") as file:
      data = json.load(file)
 
-VIDEOS = data["videos_path"]
+VIDEOS = data["videos_path"][1]
 VIDEO_SIZE = data["video_size"]
 
-video = cv2.VideoCapture(VIDEOS[0])
+video = cv2.VideoCapture(VIDEOS)
 model = YOLO(data["model_path"])
 
 while True:

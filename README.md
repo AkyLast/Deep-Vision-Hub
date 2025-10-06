@@ -20,7 +20,8 @@ Organizar e documentar o meu progresso em projetos práticos de visão computaci
 | Projeto                        | Descrição                                                                                   |
 |-------------------------------|---------------------------------------------------------------------------------------------|
 | `vision-people-counting`      | Sistema de contagem de pessoas em vídeos, utilizando processamento de imagem com OpenCV.    |
-| `...`                         | *(Outros projetos serão adicionados em breve)*                                              |
+| `smart-parking-vision`        | Sistema de detecção de ocupação de vagas em vídeos, usando rois com conexão a uma API REST.    |
+| `detection-fire`              | Sistema de detecção automática de focos de incêndio em vídeo.    |
 
 ---
 
@@ -43,8 +44,22 @@ deep-vision-hub/
 │   ├── requirements.txt
 │   └── README.md
 │
-├── object-detection-yolo/      # (em breve)
-├── pedestrian-tracker/         # (em breve)
+├── smart-parking-vision/       # Sistemas de detecção de Vagas 
+│   ├── models/                       
+│   ├── sources/
+│   ├── server/
+│   ├── utils/
+│   ├── config.json
+│   ├── main.py
+│   ├── requirements.txt
+│   └── README.md  
+│
+├── detection-fire/             # Projeto de Detecção de incêndios
+│   ├── Sources/
+│   ├── config.json
+│   ├── main.py
+│   ├── requirements.txt
+│   └── README.md      
 │
 ├── README.md                   # Este arquivo
 └── .gitignore
@@ -54,7 +69,31 @@ deep-vision-hub/
 
 ## 🚀 Como Utilizar
 
-Cada projeto contém seu próprio `README.md` e `requirements.txt`, permitindo instalação e execução independentes.
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/AkyLast/Deep-Vision-Hub.git
+cd projeto_em_questao
+```
+
+2. Crie e ative um ambiente virtual:
+
+```bash
+python -m venv venv
+# Linux / macOS
+source venv/bin/activate
+# Windows (Powershell)
+venv\Scripts\Activate.ps1
+```
+
+3. Instale dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+Cada projeto contém seu próprio `README.md`,`requirements.txt` e `main.py`, permitindo instalação e execução independentes.
 
 Exemplo:
 
@@ -78,10 +117,11 @@ python main.py
 
 ## 💼 Sobre Mim
 
-Sou apaixonado por resolver problemas reais com tecnologia, atuando na interseção entre **Engenharia de Software** e **Inteligência Artificial**. Meu objetivo é aplicar **IA e Visão Computacional** em projetos com impacto real — especialmente nos setores de **saúde, educação e acessibilidade**.
+Sou interessado por resolver problemas reais com tecnologia, atuando na interseção entre **Engenharia de Software** e **Inteligência Artificial**. Meu objetivo é aplicar **IA e Visão Computacional** em projetos com impacto real — especialmente nos setores de **saúde, educação e acessibilidade**.
 
 
-👨‍💻 Desenvolvido por [Luis Fernando Ribeiro Curvelo](https://www.linkedin.com/in/luis-fernando-ribeiro-curvelo/)
+👨‍💻 Desenvolvido por: [Luis Fernando Ribeiro Curvelo](https://www.linkedin.com/in/luis-fernando-ribeiro-curvelo/)
+Email: [luisribeiro.curvelo@gmail.com](mailto:luisribeiro.curvelo@gmail.com)
 
 ---
 
