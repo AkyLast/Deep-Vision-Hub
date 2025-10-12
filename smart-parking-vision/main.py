@@ -7,7 +7,7 @@ with open("config.json", "r", encoding="utf-8") as file:
 
 # Video Configuration 
 VIDEOS_CONFIG = data["videos_config"]
-VIDEOS_PATH = VIDEOS_CONFIG["video_colored"]["video_path"][1]
+VIDEOS_PATH = VIDEOS_CONFIG["video_colored"]["video_path"][0]
 PARK_NAME = os.path.splitext(os.path.basename(VIDEOS_PATH))[0] if not isinstance(VIDEOS_PATH, int) else "None"
 
 # Rois Configurations
